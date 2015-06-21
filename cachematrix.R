@@ -1,10 +1,10 @@
-## makeVector contains 4 functions: set, get, setsolve, getsolve
+## makeCacheMatrix contains 4 functions: set, get, setsolve, getsolve
 ## get:returns the matrix x stored in the main function
 ## set:changes the matrix stored in the main function
 
-## setmean and getmean:store the value of the input in a variable m 
-## into the main function makeVector (setmean) 
-## and return it (getmean)
+## setsolve and getsolve:store the value of the input in a variable m 
+## into the main function makeCacheMatrix (setsolve) 
+## and return it (getsolve)
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
