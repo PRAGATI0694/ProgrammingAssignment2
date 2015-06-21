@@ -20,12 +20,11 @@ makeCacheMatrix <- function(x = matrix()) {
              getsolve = getsolve)
 }
 
-
 ##  verify the value m, stored previously with getsolve, exists
 ##  and is not NULL
-##  If it exists in memory, returns a message and the value m
+##  If it exists in memory, returns a message  and the value m
 cacheSolve <- function(x, ...) {
-        m <- x$getsolve()
+        m <-x$getsolve()
         if(!is.null(m)) {
                 message("getting cached data")
                 return(m)
